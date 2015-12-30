@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1E59841C33873C00592A43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E59831C33873C00592A43 /* main.m */; };
+		1C1E59871C33873C00592A43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E59861C33873C00592A43 /* AppDelegate.m */; };
+		1C1E598A1C33873C00592A43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E59891C33873C00592A43 /* ViewController.m */; };
+		1C1E598D1C33873C00592A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E598B1C33873C00592A43 /* Main.storyboard */; };
+		1C1E598F1C33873C00592A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E598E1C33873C00592A43 /* Assets.xcassets */; };
+		1C1E59921C33873C00592A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E59901C33873C00592A43 /* LaunchScreen.storyboard */; };
+		1C1E599D1C33873C00592A43 /* SYContactsPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E599C1C33873C00592A43 /* SYContactsPickerTests.m */; };
+		1C1E59A81C33873C00592A43 /* SYContactsPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E59A71C33873C00592A43 /* SYContactsPickerUITests.m */; };
+		1C1E59C21C33B53B00592A43 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E59BC1C33B53B00592A43 /* selected@2x.png */; };
+		1C1E59C31C33B53B00592A43 /* selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E59BD1C33B53B00592A43 /* selected@3x.png */; };
+		1C1E59C41C33B53B00592A43 /* selected_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E59BE1C33B53B00592A43 /* selected_h@2x.png */; };
+		1C1E59C51C33B53B00592A43 /* selected_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E59BF1C33B53B00592A43 /* selected_h@3x.png */; };
+		1C1E59CB1C33B7C700592A43 /* SYContactsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E59CA1C33B7C700592A43 /* SYContactsPickerController.m */; };
+		1C4344521C33C6FC00221DDB /* NSString+SY.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C43444D1C33C6FC00221DDB /* NSString+SY.m */; };
+		1C4344531C33C6FC00221DDB /* SYContacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C43444F1C33C6FC00221DDB /* SYContacter.m */; };
+		1C4344541C33C6FC00221DDB /* SYContactsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4344511C33C6FC00221DDB /* SYContactsHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C1E59991C33873C00592A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C1E59771C33873C00592A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1E597E1C33873C00592A43;
+			remoteInfo = SYContactsPicker;
+		};
+		1C1E59A41C33873C00592A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C1E59771C33873C00592A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1E597E1C33873C00592A43;
+			remoteInfo = SYContactsPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C1E597F1C33873C00592A43 /* SYContactsPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYContactsPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1E59831C33873C00592A43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C1E59851C33873C00592A43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C1E59861C33873C00592A43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C1E59881C33873C00592A43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C1E59891C33873C00592A43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C1E598C1C33873C00592A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C1E598E1C33873C00592A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C1E59911C33873C00592A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C1E59931C33873C00592A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1E59981C33873C00592A43 /* SYContactsPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYContactsPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1E599C1C33873C00592A43 /* SYContactsPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYContactsPickerTests.m; sourceTree = "<group>"; };
+		1C1E599E1C33873C00592A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1E59A31C33873C00592A43 /* SYContactsPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYContactsPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1E59A71C33873C00592A43 /* SYContactsPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYContactsPickerUITests.m; sourceTree = "<group>"; };
+		1C1E59A91C33873C00592A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1E59BC1C33B53B00592A43 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+		1C1E59BD1C33B53B00592A43 /* selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@3x.png"; sourceTree = "<group>"; };
+		1C1E59BE1C33B53B00592A43 /* selected_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_h@2x.png"; sourceTree = "<group>"; };
+		1C1E59BF1C33B53B00592A43 /* selected_h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_h@3x.png"; sourceTree = "<group>"; };
+		1C1E59C91C33B7C700592A43 /* SYContactsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContactsPickerController.h; sourceTree = "<group>"; };
+		1C1E59CA1C33B7C700592A43 /* SYContactsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContactsPickerController.m; sourceTree = "<group>"; };
+		1C43444C1C33C6FC00221DDB /* NSString+SY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SY.h"; sourceTree = "<group>"; };
+		1C43444D1C33C6FC00221DDB /* NSString+SY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SY.m"; sourceTree = "<group>"; };
+		1C43444E1C33C6FC00221DDB /* SYContacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContacter.h; sourceTree = "<group>"; };
+		1C43444F1C33C6FC00221DDB /* SYContacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContacter.m; sourceTree = "<group>"; };
+		1C4344501C33C6FC00221DDB /* SYContactsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContactsHelper.h; sourceTree = "<group>"; };
+		1C4344511C33C6FC00221DDB /* SYContactsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContactsHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1E597C1C33873C00592A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1E59951C33873C00592A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1E59A01C33873C00592A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1E59761C33873C00592A43 = {
+			isa = PBXGroup;
+			children = (
+				1C1E59811C33873C00592A43 /* SYContactsPicker */,
+				1C1E599B1C33873C00592A43 /* SYContactsPickerTests */,
+				1C1E59A61C33873C00592A43 /* SYContactsPickerUITests */,
+				1C1E59801C33873C00592A43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C1E59801C33873C00592A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C1E597F1C33873C00592A43 /* SYContactsPicker.app */,
+				1C1E59981C33873C00592A43 /* SYContactsPickerTests.xctest */,
+				1C1E59A31C33873C00592A43 /* SYContactsPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C1E59811C33873C00592A43 /* SYContactsPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1C1E59851C33873C00592A43 /* AppDelegate.h */,
+				1C1E59861C33873C00592A43 /* AppDelegate.m */,
+				1C1E59881C33873C00592A43 /* ViewController.h */,
+				1C1E59891C33873C00592A43 /* ViewController.m */,
+				1C1E598B1C33873C00592A43 /* Main.storyboard */,
+				1C1E598E1C33873C00592A43 /* Assets.xcassets */,
+				1C1E59901C33873C00592A43 /* LaunchScreen.storyboard */,
+				1C1E59931C33873C00592A43 /* Info.plist */,
+				1C1E59C81C33B79200592A43 /* SYContacterPicker */,
+				1C1E59BB1C33B53B00592A43 /* images */,
+				1C1E59821C33873C00592A43 /* Supporting Files */,
+			);
+			path = SYContactsPicker;
+			sourceTree = "<group>";
+		};
+		1C1E59821C33873C00592A43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C1E59831C33873C00592A43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C1E599B1C33873C00592A43 /* SYContactsPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C1E599C1C33873C00592A43 /* SYContactsPickerTests.m */,
+				1C1E599E1C33873C00592A43 /* Info.plist */,
+			);
+			path = SYContactsPickerTests;
+			sourceTree = "<group>";
+		};
+		1C1E59A61C33873C00592A43 /* SYContactsPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C1E59A71C33873C00592A43 /* SYContactsPickerUITests.m */,
+				1C1E59A91C33873C00592A43 /* Info.plist */,
+			);
+			path = SYContactsPickerUITests;
+			sourceTree = "<group>";
+		};
+		1C1E59BB1C33B53B00592A43 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1C1E59BC1C33B53B00592A43 /* selected@2x.png */,
+				1C1E59BD1C33B53B00592A43 /* selected@3x.png */,
+				1C1E59BE1C33B53B00592A43 /* selected_h@2x.png */,
+				1C1E59BF1C33B53B00592A43 /* selected_h@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1C1E59C81C33B79200592A43 /* SYContacterPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1C43444C1C33C6FC00221DDB /* NSString+SY.h */,
+				1C43444D1C33C6FC00221DDB /* NSString+SY.m */,
+				1C43444E1C33C6FC00221DDB /* SYContacter.h */,
+				1C43444F1C33C6FC00221DDB /* SYContacter.m */,
+				1C4344501C33C6FC00221DDB /* SYContactsHelper.h */,
+				1C4344511C33C6FC00221DDB /* SYContactsHelper.m */,
+				1C1E59C91C33B7C700592A43 /* SYContactsPickerController.h */,
+				1C1E59CA1C33B7C700592A43 /* SYContactsPickerController.m */,
+			);
+			path = SYContacterPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C1E597E1C33873C00592A43 /* SYContactsPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1E59AC1C33873C00592A43 /* Build configuration list for PBXNativeTarget "SYContactsPicker" */;
+			buildPhases = (
+				1C1E597B1C33873C00592A43 /* Sources */,
+				1C1E597C1C33873C00592A43 /* Frameworks */,
+				1C1E597D1C33873C00592A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYContactsPicker;
+			productName = SYContactsPicker;
+			productReference = 1C1E597F1C33873C00592A43 /* SYContactsPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C1E59971C33873C00592A43 /* SYContactsPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1E59AF1C33873C00592A43 /* Build configuration list for PBXNativeTarget "SYContactsPickerTests" */;
+			buildPhases = (
+				1C1E59941C33873C00592A43 /* Sources */,
+				1C1E59951C33873C00592A43 /* Frameworks */,
+				1C1E59961C33873C00592A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C1E599A1C33873C00592A43 /* PBXTargetDependency */,
+			);
+			name = SYContactsPickerTests;
+			productName = SYContactsPickerTests;
+			productReference = 1C1E59981C33873C00592A43 /* SYContactsPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C1E59A21C33873C00592A43 /* SYContactsPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1E59B21C33873C00592A43 /* Build configuration list for PBXNativeTarget "SYContactsPickerUITests" */;
+			buildPhases = (
+				1C1E599F1C33873C00592A43 /* Sources */,
+				1C1E59A01C33873C00592A43 /* Frameworks */,
+				1C1E59A11C33873C00592A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C1E59A51C33873C00592A43 /* PBXTargetDependency */,
+			);
+			name = SYContactsPickerUITests;
+			productName = SYContactsPickerUITests;
+			productReference = 1C1E59A31C33873C00592A43 /* SYContactsPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C1E59771C33873C00592A43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SY;
+				TargetAttributes = {
+					1C1E597E1C33873C00592A43 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1C1E59971C33873C00592A43 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1C1E597E1C33873C00592A43;
+					};
+					1C1E59A21C33873C00592A43 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1C1E597E1C33873C00592A43;
+					};
+				};
+			};
+			buildConfigurationList = 1C1E597A1C33873C00592A43 /* Build configuration list for PBXProject "SYContactsPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C1E59761C33873C00592A43;
+			productRefGroup = 1C1E59801C33873C00592A43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C1E597E1C33873C00592A43 /* SYContactsPicker */,
+				1C1E59971C33873C00592A43 /* SYContactsPickerTests */,
+				1C1E59A21C33873C00592A43 /* SYContactsPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C1E597D1C33873C00592A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1E59921C33873C00592A43 /* LaunchScreen.storyboard in Resources */,
+				1C1E598F1C33873C00592A43 /* Assets.xcassets in Resources */,
+				1C1E59C51C33B53B00592A43 /* selected_h@3x.png in Resources */,
+				1C1E598D1C33873C00592A43 /* Main.storyboard in Resources */,
+				1C1E59C21C33B53B00592A43 /* selected@2x.png in Resources */,
+				1C1E59C41C33B53B00592A43 /* selected_h@2x.png in Resources */,
+				1C1E59C31C33B53B00592A43 /* selected@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1E59961C33873C00592A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1E59A11C33873C00592A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C1E597B1C33873C00592A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4344541C33C6FC00221DDB /* SYContactsHelper.m in Sources */,
+				1C4344521C33C6FC00221DDB /* NSString+SY.m in Sources */,
+				1C4344531C33C6FC00221DDB /* SYContacter.m in Sources */,
+				1C1E598A1C33873C00592A43 /* ViewController.m in Sources */,
+				1C1E59CB1C33B7C700592A43 /* SYContactsPickerController.m in Sources */,
+				1C1E59871C33873C00592A43 /* AppDelegate.m in Sources */,
+				1C1E59841C33873C00592A43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1E59941C33873C00592A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1E599D1C33873C00592A43 /* SYContactsPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1E599F1C33873C00592A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1E59A81C33873C00592A43 /* SYContactsPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C1E599A1C33873C00592A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C1E597E1C33873C00592A43 /* SYContactsPicker */;
+			targetProxy = 1C1E59991C33873C00592A43 /* PBXContainerItemProxy */;
+		};
+		1C1E59A51C33873C00592A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C1E597E1C33873C00592A43 /* SYContactsPicker */;
+			targetProxy = 1C1E59A41C33873C00592A43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C1E598B1C33873C00592A43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C1E598C1C33873C00592A43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C1E59901C33873C00592A43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C1E59911C33873C00592A43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C1E59AA1C33873C00592A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C1E59AB1C33873C00592A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C1E59AD1C33873C00592A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYContactsPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reesun.SYContactsPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C1E59AE1C33873C00592A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYContactsPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reesun.SYContactsPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C1E59B01C33873C00592A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYContactsPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wfyouth.SYContactsPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYContactsPicker.app/SYContactsPicker";
+			};
+			name = Debug;
+		};
+		1C1E59B11C33873C00592A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYContactsPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wfyouth.SYContactsPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYContactsPicker.app/SYContactsPicker";
+			};
+			name = Release;
+		};
+		1C1E59B31C33873C00592A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYContactsPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wfyouth.SYContactsPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYContactsPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1C1E59B41C33873C00592A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYContactsPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wfyouth.SYContactsPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYContactsPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C1E597A1C33873C00592A43 /* Build configuration list for PBXProject "SYContactsPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1E59AA1C33873C00592A43 /* Debug */,
+				1C1E59AB1C33873C00592A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C1E59AC1C33873C00592A43 /* Build configuration list for PBXNativeTarget "SYContactsPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1E59AD1C33873C00592A43 /* Debug */,
+				1C1E59AE1C33873C00592A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C1E59AF1C33873C00592A43 /* Build configuration list for PBXNativeTarget "SYContactsPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1E59B01C33873C00592A43 /* Debug */,
+				1C1E59B11C33873C00592A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C1E59B21C33873C00592A43 /* Build configuration list for PBXNativeTarget "SYContactsPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1E59B31C33873C00592A43 /* Debug */,
+				1C1E59B41C33873C00592A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C1E59771C33873C00592A43 /* Project object */;
+}

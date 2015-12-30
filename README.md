@@ -22,5 +22,5 @@ SYContactsPicker contacts contactsPicker 通讯录读取及展示demo，适配iO
     }
 
 # 效果如下：
- ![image](https://github.com/reesun1130/SYContactsPicker/blob/master/SYContactsPicker/sycontactspicker1.PNG)
- ![image](https://github.com/reesun1130/SYContactsPicker/blob/master/SYContactsPicker/sycontactspicker2.PNG)
+ ![image](https://github.com/reesun1130/SYContactsPicker/blob/master/SYContactsPicker/sycontactspicker1.png)
+ ![image](https://github.com/reesun1130/SYContactsPicker/blob/master/SYContactsPicker/sycontactspicker2.png)

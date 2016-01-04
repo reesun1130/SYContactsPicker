@@ -37,7 +37,7 @@
             [weakSelf reloadContacts:contacts];
         }
         else {
-            [self showUserDenied];
+            [weakSelf showUserDenied];
         }
     }];
 }

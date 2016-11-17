@@ -12,13 +12,15 @@
 #import "SYContacter.h"
 #import "NSString+SY.h"
 
+#define kIOS9_OR_LATER ([[[UIDevice currentDevice] systemVersion] compare:@"9" options:NSNumericSearch] != NSOrderedAscending)
+
 @implementation SYContactsHelper
 
 //获取通讯录权限
 + (BOOL)canAccessContacts {
     __block BOOL tmpGranted = YES;
 
-    if ([[UIDevice currentDevice].systemVersion floatValue] >= 9.0) {
+    if (kIOS9_OR_LATER) {
         CNAuthorizationStatus status = [CNContactStore authorizationStatusForEntityType:CNEntityTypeContacts];
         if (status == CNAuthorizationStatusDenied || status == CNAuthorizationStatusRestricted) {
             tmpGranted = NO;
@@ -42,7 +44,7 @@
     NSMutableArray *contactsTemp = [[NSMutableArray alloc] init];
     
 #warning ABAddressBook_DEPRECATED
-    if ([[UIDevice currentDevice].systemVersion floatValue] >= 9.0) {
+    if (kIOS9_OR_LATER) {
         CNAuthorizationStatus status = [CNContactStore authorizationStatusForEntityType:CNEntityTypeContacts];
         if (status == CNAuthorizationStatusDenied || status == CNAuthorizationStatusRestricted) {
             if (block) {

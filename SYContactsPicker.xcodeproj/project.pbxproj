@@ -15,14 +15,14 @@
 		1C1E59921C33873C00592A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E59901C33873C00592A43 /* LaunchScreen.storyboard */; };
 		1C1E599D1C33873C00592A43 /* SYContactsPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E599C1C33873C00592A43 /* SYContactsPickerTests.m */; };
 		1C1E59A81C33873C00592A43 /* SYContactsPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E59A71C33873C00592A43 /* SYContactsPickerUITests.m */; };
-		1C1E59C21C33B53B00592A43 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E59BC1C33B53B00592A43 /* selected@2x.png */; };
-		1C1E59C31C33B53B00592A43 /* selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E59BD1C33B53B00592A43 /* selected@3x.png */; };
-		1C1E59C41C33B53B00592A43 /* selected_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E59BE1C33B53B00592A43 /* selected_h@2x.png */; };
-		1C1E59C51C33B53B00592A43 /* selected_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1E59BF1C33B53B00592A43 /* selected_h@3x.png */; };
-		1C1E59CB1C33B7C700592A43 /* SYContactsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E59CA1C33B7C700592A43 /* SYContactsPickerController.m */; };
-		1C4344521C33C6FC00221DDB /* NSString+SY.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C43444D1C33C6FC00221DDB /* NSString+SY.m */; };
-		1C4344531C33C6FC00221DDB /* SYContacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C43444F1C33C6FC00221DDB /* SYContacter.m */; };
-		1C4344541C33C6FC00221DDB /* SYContactsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4344511C33C6FC00221DDB /* SYContactsHelper.m */; };
+		1C223A111E24B138002C8843 /* NSString+SY.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C223A061E24B138002C8843 /* NSString+SY.m */; };
+		1C223A121E24B138002C8843 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C223A071E24B138002C8843 /* selected@2x.png */; };
+		1C223A131E24B138002C8843 /* selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C223A081E24B138002C8843 /* selected@3x.png */; };
+		1C223A141E24B138002C8843 /* selected_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C223A091E24B138002C8843 /* selected_h@2x.png */; };
+		1C223A151E24B138002C8843 /* selected_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C223A0A1E24B138002C8843 /* selected_h@3x.png */; };
+		1C223A161E24B138002C8843 /* SYContacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C223A0C1E24B138002C8843 /* SYContacter.m */; };
+		1C223A171E24B138002C8843 /* SYContactsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C223A0E1E24B138002C8843 /* SYContactsHelper.m */; };
+		1C223A181E24B138002C8843 /* SYContactsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C223A101E24B138002C8843 /* SYContactsPickerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,18 +59,18 @@
 		1C1E59A31C33873C00592A43 /* SYContactsPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYContactsPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1E59A71C33873C00592A43 /* SYContactsPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYContactsPickerUITests.m; sourceTree = "<group>"; };
 		1C1E59A91C33873C00592A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C1E59BC1C33B53B00592A43 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
-		1C1E59BD1C33B53B00592A43 /* selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@3x.png"; sourceTree = "<group>"; };
-		1C1E59BE1C33B53B00592A43 /* selected_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_h@2x.png"; sourceTree = "<group>"; };
-		1C1E59BF1C33B53B00592A43 /* selected_h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_h@3x.png"; sourceTree = "<group>"; };
-		1C1E59C91C33B7C700592A43 /* SYContactsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContactsPickerController.h; sourceTree = "<group>"; };
-		1C1E59CA1C33B7C700592A43 /* SYContactsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContactsPickerController.m; sourceTree = "<group>"; };
-		1C43444C1C33C6FC00221DDB /* NSString+SY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SY.h"; sourceTree = "<group>"; };
-		1C43444D1C33C6FC00221DDB /* NSString+SY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SY.m"; sourceTree = "<group>"; };
-		1C43444E1C33C6FC00221DDB /* SYContacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContacter.h; sourceTree = "<group>"; };
-		1C43444F1C33C6FC00221DDB /* SYContacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContacter.m; sourceTree = "<group>"; };
-		1C4344501C33C6FC00221DDB /* SYContactsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContactsHelper.h; sourceTree = "<group>"; };
-		1C4344511C33C6FC00221DDB /* SYContactsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContactsHelper.m; sourceTree = "<group>"; };
+		1C223A051E24B138002C8843 /* NSString+SY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SY.h"; sourceTree = "<group>"; };
+		1C223A061E24B138002C8843 /* NSString+SY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SY.m"; sourceTree = "<group>"; };
+		1C223A071E24B138002C8843 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+		1C223A081E24B138002C8843 /* selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@3x.png"; sourceTree = "<group>"; };
+		1C223A091E24B138002C8843 /* selected_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_h@2x.png"; sourceTree = "<group>"; };
+		1C223A0A1E24B138002C8843 /* selected_h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_h@3x.png"; sourceTree = "<group>"; };
+		1C223A0B1E24B138002C8843 /* SYContacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContacter.h; sourceTree = "<group>"; };
+		1C223A0C1E24B138002C8843 /* SYContacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContacter.m; sourceTree = "<group>"; };
+		1C223A0D1E24B138002C8843 /* SYContactsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContactsHelper.h; sourceTree = "<group>"; };
+		1C223A0E1E24B138002C8843 /* SYContactsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContactsHelper.m; sourceTree = "<group>"; };
+		1C223A0F1E24B138002C8843 /* SYContactsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContactsPickerController.h; sourceTree = "<group>"; };
+		1C223A101E24B138002C8843 /* SYContactsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContactsPickerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,8 @@
 		1C1E59761C33873C00592A43 = {
 			isa = PBXGroup;
 			children = (
-				1C1E59811C33873C00592A43 /* SYContactsPicker */,
+				1C223A041E24B138002C8843 /* SYContacterPicker */,
+				1C1E59811C33873C00592A43 /* SYContactsPickerDemo */,
 				1C1E599B1C33873C00592A43 /* SYContactsPickerTests */,
 				1C1E59A61C33873C00592A43 /* SYContactsPickerUITests */,
 				1C1E59801C33873C00592A43 /* Products */,
@@ -118,7 +119,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1C1E59811C33873C00592A43 /* SYContactsPicker */ = {
+		1C1E59811C33873C00592A43 /* SYContactsPickerDemo */ = {
 			isa = PBXGroup;
 			children = (
 				1C1E59851C33873C00592A43 /* AppDelegate.h */,
@@ -129,11 +130,9 @@
 				1C1E598E1C33873C00592A43 /* Assets.xcassets */,
 				1C1E59901C33873C00592A43 /* LaunchScreen.storyboard */,
 				1C1E59931C33873C00592A43 /* Info.plist */,
-				1C1E59C81C33B79200592A43 /* SYContacterPicker */,
-				1C1E59BB1C33B53B00592A43 /* images */,
 				1C1E59821C33873C00592A43 /* Supporting Files */,
 			);
-			path = SYContactsPicker;
+			path = SYContactsPickerDemo;
 			sourceTree = "<group>";
 		};
 		1C1E59821C33873C00592A43 /* Supporting Files */ = {
@@ -162,28 +161,21 @@
 			path = SYContactsPickerUITests;
 			sourceTree = "<group>";
 		};
-		1C1E59BB1C33B53B00592A43 /* images */ = {
+		1C223A041E24B138002C8843 /* SYContacterPicker */ = {
 			isa = PBXGroup;
 			children = (
-				1C1E59BC1C33B53B00592A43 /* selected@2x.png */,
-				1C1E59BD1C33B53B00592A43 /* selected@3x.png */,
-				1C1E59BE1C33B53B00592A43 /* selected_h@2x.png */,
-				1C1E59BF1C33B53B00592A43 /* selected_h@3x.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		1C1E59C81C33B79200592A43 /* SYContacterPicker */ = {
-			isa = PBXGroup;
-			children = (
-				1C43444C1C33C6FC00221DDB /* NSString+SY.h */,
-				1C43444D1C33C6FC00221DDB /* NSString+SY.m */,
-				1C43444E1C33C6FC00221DDB /* SYContacter.h */,
-				1C43444F1C33C6FC00221DDB /* SYContacter.m */,
-				1C4344501C33C6FC00221DDB /* SYContactsHelper.h */,
-				1C4344511C33C6FC00221DDB /* SYContactsHelper.m */,
-				1C1E59C91C33B7C700592A43 /* SYContactsPickerController.h */,
-				1C1E59CA1C33B7C700592A43 /* SYContactsPickerController.m */,
+				1C223A051E24B138002C8843 /* NSString+SY.h */,
+				1C223A061E24B138002C8843 /* NSString+SY.m */,
+				1C223A071E24B138002C8843 /* selected@2x.png */,
+				1C223A081E24B138002C8843 /* selected@3x.png */,
+				1C223A091E24B138002C8843 /* selected_h@2x.png */,
+				1C223A0A1E24B138002C8843 /* selected_h@3x.png */,
+				1C223A0B1E24B138002C8843 /* SYContacter.h */,
+				1C223A0C1E24B138002C8843 /* SYContacter.m */,
+				1C223A0D1E24B138002C8843 /* SYContactsHelper.h */,
+				1C223A0E1E24B138002C8843 /* SYContactsHelper.m */,
+				1C223A0F1E24B138002C8843 /* SYContactsPickerController.h */,
+				1C223A101E24B138002C8843 /* SYContactsPickerController.m */,
 			);
 			path = SYContacterPicker;
 			sourceTree = "<group>";
@@ -250,7 +242,7 @@
 		1C1E59771C33873C00592A43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = SY;
 				TargetAttributes = {
 					1C1E597E1C33873C00592A43 = {
@@ -291,13 +283,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C223A131E24B138002C8843 /* selected@3x.png in Resources */,
 				1C1E59921C33873C00592A43 /* LaunchScreen.storyboard in Resources */,
+				1C223A121E24B138002C8843 /* selected@2x.png in Resources */,
 				1C1E598F1C33873C00592A43 /* Assets.xcassets in Resources */,
-				1C1E59C51C33B53B00592A43 /* selected_h@3x.png in Resources */,
+				1C223A151E24B138002C8843 /* selected_h@3x.png in Resources */,
+				1C223A141E24B138002C8843 /* selected_h@2x.png in Resources */,
 				1C1E598D1C33873C00592A43 /* Main.storyboard in Resources */,
-				1C1E59C21C33B53B00592A43 /* selected@2x.png in Resources */,
-				1C1E59C41C33B53B00592A43 /* selected_h@2x.png in Resources */,
-				1C1E59C31C33B53B00592A43 /* selected@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,13 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C4344541C33C6FC00221DDB /* SYContactsHelper.m in Sources */,
-				1C4344521C33C6FC00221DDB /* NSString+SY.m in Sources */,
-				1C4344531C33C6FC00221DDB /* SYContacter.m in Sources */,
 				1C1E598A1C33873C00592A43 /* ViewController.m in Sources */,
-				1C1E59CB1C33B7C700592A43 /* SYContactsPickerController.m in Sources */,
+				1C223A181E24B138002C8843 /* SYContactsPickerController.m in Sources */,
 				1C1E59871C33873C00592A43 /* AppDelegate.m in Sources */,
 				1C1E59841C33873C00592A43 /* main.m in Sources */,
+				1C223A161E24B138002C8843 /* SYContacter.m in Sources */,
+				1C223A171E24B138002C8843 /* SYContactsHelper.m in Sources */,
+				1C223A111E24B138002C8843 /* NSString+SY.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +388,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -419,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -439,8 +433,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -456,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -467,8 +463,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SYContactsPicker/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				INFOPLIST_FILE = SYContactsPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reesun.SYContactsPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,8 +475,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SYContactsPicker/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				INFOPLIST_FILE = SYContactsPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reesun.SYContactsPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -16,13 +16,10 @@
 		1C1E599D1C33873C00592A43 /* SYContactsPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E599C1C33873C00592A43 /* SYContactsPickerTests.m */; };
 		1C1E59A81C33873C00592A43 /* SYContactsPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E59A71C33873C00592A43 /* SYContactsPickerUITests.m */; };
 		1C223A111E24B138002C8843 /* NSString+SY.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C223A061E24B138002C8843 /* NSString+SY.m */; };
-		1C223A121E24B138002C8843 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C223A071E24B138002C8843 /* selected@2x.png */; };
-		1C223A131E24B138002C8843 /* selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C223A081E24B138002C8843 /* selected@3x.png */; };
-		1C223A141E24B138002C8843 /* selected_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C223A091E24B138002C8843 /* selected_h@2x.png */; };
-		1C223A151E24B138002C8843 /* selected_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C223A0A1E24B138002C8843 /* selected_h@3x.png */; };
 		1C223A161E24B138002C8843 /* SYContacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C223A0C1E24B138002C8843 /* SYContacter.m */; };
 		1C223A171E24B138002C8843 /* SYContactsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C223A0E1E24B138002C8843 /* SYContactsHelper.m */; };
 		1C223A181E24B138002C8843 /* SYContactsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C223A101E24B138002C8843 /* SYContactsPickerController.m */; };
+		1C223A591E24D77D002C8843 /* SYContactsPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C223A581E24D77D002C8843 /* SYContactsPicker.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,16 +58,13 @@
 		1C1E59A91C33873C00592A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C223A051E24B138002C8843 /* NSString+SY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SY.h"; sourceTree = "<group>"; };
 		1C223A061E24B138002C8843 /* NSString+SY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SY.m"; sourceTree = "<group>"; };
-		1C223A071E24B138002C8843 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
-		1C223A081E24B138002C8843 /* selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@3x.png"; sourceTree = "<group>"; };
-		1C223A091E24B138002C8843 /* selected_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_h@2x.png"; sourceTree = "<group>"; };
-		1C223A0A1E24B138002C8843 /* selected_h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_h@3x.png"; sourceTree = "<group>"; };
 		1C223A0B1E24B138002C8843 /* SYContacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContacter.h; sourceTree = "<group>"; };
 		1C223A0C1E24B138002C8843 /* SYContacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContacter.m; sourceTree = "<group>"; };
 		1C223A0D1E24B138002C8843 /* SYContactsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContactsHelper.h; sourceTree = "<group>"; };
 		1C223A0E1E24B138002C8843 /* SYContactsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContactsHelper.m; sourceTree = "<group>"; };
 		1C223A0F1E24B138002C8843 /* SYContactsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYContactsPickerController.h; sourceTree = "<group>"; };
 		1C223A101E24B138002C8843 /* SYContactsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYContactsPickerController.m; sourceTree = "<group>"; };
+		1C223A581E24D77D002C8843 /* SYContactsPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SYContactsPicker.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,12 +158,9 @@
 		1C223A041E24B138002C8843 /* SYContactsPicker */ = {
 			isa = PBXGroup;
 			children = (
+				1C223A581E24D77D002C8843 /* SYContactsPicker.bundle */,
 				1C223A051E24B138002C8843 /* NSString+SY.h */,
 				1C223A061E24B138002C8843 /* NSString+SY.m */,
-				1C223A071E24B138002C8843 /* selected@2x.png */,
-				1C223A081E24B138002C8843 /* selected@3x.png */,
-				1C223A091E24B138002C8843 /* selected_h@2x.png */,
-				1C223A0A1E24B138002C8843 /* selected_h@3x.png */,
 				1C223A0B1E24B138002C8843 /* SYContacter.h */,
 				1C223A0C1E24B138002C8843 /* SYContacter.m */,
 				1C223A0D1E24B138002C8843 /* SYContactsHelper.h */,
@@ -283,12 +274,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C223A131E24B138002C8843 /* selected@3x.png in Resources */,
+				1C223A591E24D77D002C8843 /* SYContactsPicker.bundle in Resources */,
 				1C1E59921C33873C00592A43 /* LaunchScreen.storyboard in Resources */,
-				1C223A121E24B138002C8843 /* selected@2x.png in Resources */,
 				1C1E598F1C33873C00592A43 /* Assets.xcassets in Resources */,
-				1C223A151E24B138002C8843 /* selected_h@3x.png in Resources */,
-				1C223A141E24B138002C8843 /* selected_h@2x.png in Resources */,
 				1C1E598D1C33873C00592A43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

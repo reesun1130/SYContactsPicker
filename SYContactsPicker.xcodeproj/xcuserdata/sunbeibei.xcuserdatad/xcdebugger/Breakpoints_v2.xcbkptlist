@@ -16,7 +16,7 @@
             startingLineNumber = "42"
             endingLineNumber = "42"
             landmarkName = "+fetchContacts:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,7 +32,7 @@
             startingLineNumber = "20"
             endingLineNumber = "20"
             landmarkName = "+canAccessContacts"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

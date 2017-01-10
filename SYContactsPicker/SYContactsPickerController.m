@@ -13,6 +13,9 @@
 #import "NSString+SY.h"
 #import "SYContactsHelper.h"
 
+#define kSYSrcName(file) [@"SYContactsPicker.bundle" stringByAppendingPathComponent:file]
+#define kSYFrameworkSrcName(file) [@"Frameworks/SYContactsPicker.framework/SYContactsPicker.bundle" stringByAppendingPathComponent:file]
+
 @interface SYContactsPickerController () <UITableViewDataSource, UITableViewDelegate> {
 @private
     NSMutableArray *_arrContacts;
@@ -243,8 +246,8 @@
         
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         [button setFrame:CGRectMake(30, 0, 22, 22)];
-        [button setBackgroundImage:[UIImage imageNamed:@"selected"] forState:UIControlStateNormal];
-        [button setBackgroundImage:[UIImage imageNamed:@"selected_h"] forState:UIControlStateSelected];
+        [button setBackgroundImage:[UIImage imageNamed:kSYSrcName(@"selected@2x.png")] ? : [UIImage imageNamed:kSYFrameworkSrcName(@"selected@2x.png")] forState:UIControlStateNormal];
+        [button setBackgroundImage:[UIImage imageNamed:kSYSrcName(@"selected_h@2x.png")] ? : [UIImage imageNamed:kSYFrameworkSrcName(@"selected_h@2x.png")] forState:UIControlStateSelected];
         [button addTarget:self action:@selector(checkButtonTapped:event:) forControlEvents:UIControlEventTouchUpInside];
         [button setSelected:NO];
         cell.accessoryView = button;

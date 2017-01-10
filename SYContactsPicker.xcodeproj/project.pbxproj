@@ -101,7 +101,7 @@
 		1C1E59761C33873C00592A43 = {
 			isa = PBXGroup;
 			children = (
-				1C223A041E24B138002C8843 /* SYContacterPicker */,
+				1C223A041E24B138002C8843 /* SYContactsPicker */,
 				1C1E59811C33873C00592A43 /* SYContactsPickerDemo */,
 				1C1E599B1C33873C00592A43 /* SYContactsPickerTests */,
 				1C1E59A61C33873C00592A43 /* SYContactsPickerUITests */,
@@ -161,7 +161,7 @@
 			path = SYContactsPickerUITests;
 			sourceTree = "<group>";
 		};
-		1C223A041E24B138002C8843 /* SYContacterPicker */ = {
+		1C223A041E24B138002C8843 /* SYContactsPicker */ = {
 			isa = PBXGroup;
 			children = (
 				1C223A051E24B138002C8843 /* NSString+SY.h */,
@@ -177,7 +177,7 @@
 				1C223A0F1E24B138002C8843 /* SYContactsPickerController.h */,
 				1C223A101E24B138002C8843 /* SYContactsPickerController.m */,
 			);
-			path = SYContacterPicker;
+			path = SYContactsPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

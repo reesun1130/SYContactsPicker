@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "SYContactsPicker"
-s.version      = "1.0.3"
+s.version      = "1.0.5"
 s.summary      = "SY Contacts Picker通讯录读取及展示，适配iOS9"
 s.description  = <<-DESC
 SY Contacts Picker contactsPicker通讯录读取及展示，适配iOS9
